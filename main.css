@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://assets.onecompiler.app/439wf4k9w/439wex2rp/gym.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #f5f5f5;
+}
+
+.dropdown {
+    position: relative;
+            display: inline-block;
+    }
+
+.dropbtn {
+    background-color: #333;
+    color: white;
+  padding: 10px 20px;
+    font-size: 16px;
+     border: none;
+    cursor: pointer;
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    }
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    }
+
+header {
+    background-color: rgba(0, 0, 0, 0.8); 
+    text-align: center;
+    padding: 10px 0;
+}
+
+.center-text {
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 800px;
+    font-size: 1.2rem;
+    color: black;
+}
+
+/* Logo Styling */
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px; 
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.9); 
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 1.2em;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff4c4c;
+    border-radius: 5px;
+}
+
+/* Centering Content */
+section {
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 800px;
+    background-color: rgba(58, 58, 58, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.plan .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ff4c4c;
+}
+
+.plan .price del {
+    color: #09bff1;
+    margin-right: 5px;
+    font-size: 1em;
+}
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.schedule-table th, .schedule-table td {
+    border: 1px solid #09bff1;
+    padding: 10px;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: #ff4500;
+    color: white;
+    font-weight: bold;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #09bff1;
+}
+
+.schedule-table tr:hover {
+    background-color: #09bff1;
+}
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #ff4500;
+    margin-bottom: 15px;
+}
+
+.contact-form p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #e63e00;
+}
+.service {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-img {
+    width: 100%;
+    max-width: 400px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+/* Trainer */
+.trainer-link {
+    display: inline-block;
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.trainer-link:hover {
+    background-color: #cc4626;
+}
